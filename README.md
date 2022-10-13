@@ -28,7 +28,7 @@ ssh-copy-id root@159.89.29.221
 apt-get update && apt-get upgrade -y
 ```
 
-## 2- Instalamos odoo 14
+## 2- Instalamos odoo 16.0
 ```linux
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
 echo "deb http://nightly.odoo.com/16.0/nightly/deb/ ./" >> /etc/apt/sources.list
