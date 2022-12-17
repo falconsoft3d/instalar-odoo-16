@@ -35,6 +35,11 @@ echo "deb http://nightly.odoo.com/16.0/nightly/deb/ ./" >> /etc/apt/sources.list
 apt-get update && apt-get install odoo
 ```
 
+```
+apt-get install node-less
+```
+
+
 
 ## 3 - Instalamos ngix para cambiar el puerto
 ```linux
