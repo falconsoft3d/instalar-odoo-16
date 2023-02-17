@@ -53,6 +53,7 @@ nginx -s reload
 ```
 
 ```
+nano /etc/nginx/sites-available/default
 tail -f /var/log/nginx/access.log
 tail -f /var/log/nginx/error.log;
 ```
