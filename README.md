@@ -286,6 +286,18 @@ limit_time_real = 1200
 limit_time_cpu = 600
 ```
 
+
+# Filtrando por subdominio
+```
+dbfilter = ^%d$
+```
+
+
+# Filtrando por dominio
+```
+dbfilter = ^%h$
+```
+
 # Log en el odoo.conf
 ```
 log_level = info
